@@ -7,5 +7,19 @@
 <h4>Type mathjax text here </h4>
 <textarea  rows=10 style="width:100%" [(ngModel)]="mathContent">
 </textarea>
-
+<select class="form-control" 
+(change)="onChange($event)">
+<option default>Banana</option>
+<option value="1">Mango</option>
+<option value="2">Pineapple</option>
+<option value="3">Apple</option>
+<option value="4">Kiwi</option>
+</select>
+<label for="sel1">
+  Select Any Fruit:
+</label>
+<h3>
+  You have selected this fruit: {{selected_fruit}}
+  <span id="euqation" [(ngModel)]="mathContent"></span>
+</h3>
    
