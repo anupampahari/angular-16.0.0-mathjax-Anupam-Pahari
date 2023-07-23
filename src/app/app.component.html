@@ -1,12 +1,11 @@
 <h2>Mathjax playground for Angular 6</h2>
-<hr>
+<hr />
 <mathjax [content]="mathContent"></mathjax>
 
-<br>
-<hr>
-<h4>Type mathjax text here </h4>
-<textarea  rows=10 style="width:100%" [(ngModel)]="mathContent">
-</textarea>
+<br />
+<hr />
+<h4>Type mathjax text here</h4>
+<textarea rows="10" style="width:100%" [(ngModel)]="mathContent"></textarea>
 <select class="form-control" 
 (change)="onChange($event)">
 <option default>Banana</option>
@@ -20,6 +19,5 @@
 </label>
 <h3>
   You have selected this fruit: {{selected_fruit}}
-  <span id="euqation" [(ngModel)]="mathContent"></span>
-</h3>
-   
+  
+</h3> 

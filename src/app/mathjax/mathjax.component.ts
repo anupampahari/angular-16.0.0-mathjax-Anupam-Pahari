@@ -33,7 +33,7 @@ export class MathjaxComponent implements OnChanges {
         ['Typeset', angObj.mathJaxObject.Hub],
         'mathContent'
       );
-    }, 1000);
+    }, 2000);
   }
   loadMathConfig() {
     console.log('load config');
